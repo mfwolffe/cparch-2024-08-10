@@ -12,3 +12,4 @@ BKNM=packages-bk-$(date +'%m-%d:%T').txt
 cp releng/packages.x86_64 $BKPTH/$BKNM
 
 pacman -Qen | sed 's/ .*//' | cat - $BKPTH/$BKNM | sort --unique > releng/packages.x86_64
+
