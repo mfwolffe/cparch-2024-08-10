@@ -1,6 +1,6 @@
-NAME="EndeavourOS"
-PRETTY_NAME="EndeavourOS"
-ID="endeavouros"
+NAME="MusicCPArch"
+PRETTY_NAME="MusicCPArch"
+ID="cparch"
 ID_LIKE="arch"
 BUILD_ID=rolling
 ANSI_COLOR="38;2;23;147;209"
