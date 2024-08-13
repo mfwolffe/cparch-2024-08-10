@@ -1,9 +1,9 @@
 NAME="MusicCPArch"
-PRETTY_NAME="MusicCPArch"
+PRETTY_NAME="Music CPArch"
 ID="cparch"
 ID_LIKE="arch"
 BUILD_ID=rolling
-ANSI_COLOR="38;2;23;147;209"
+ANSI_COLOR="42;8;32;128;256"
 HOME_URL="https://github.com/mfwolffe/cparch-2024-08-10"
 DOCUMENTATION_URL="https://github.com/mfwolffe/cparch-2024-08-10/wiki"
 SUPPORT_URL="https://github.com/mfwolffe"
