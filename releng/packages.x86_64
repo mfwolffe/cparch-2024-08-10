@@ -25,6 +25,7 @@ cantarell-fonts
 clonezilla
 cloud-init
 cryptsetup
+curl
 darkhttpd
 ddrescue
 device-mapper
@@ -37,7 +38,6 @@ dnsmasq
 dolphin
 dolphin-plugins
 dosfstools
-downgrade
 dracut
 duf
 e2fsprogs
@@ -91,7 +91,6 @@ kdegraphics-thumbnailers
 kde-gtk-config
 kdenetwork-filesharing
 kdeplasma-addons
-kernel-install-for-dracut
 kgamma
 kimageformats
 kinfocenter
@@ -159,9 +158,6 @@ noto-fonts-extra
 nss-mdns
 ntfs-3g
 ntp
-nvidia
-nvidia-hook
-nvidia-inst
 nvme-cli
 obs-studio
 okular
@@ -207,7 +203,6 @@ qemu-guest-agent
 rebuild-detector
 refind
 reflector
-reflector-simple
 reiserfsprogs
 remmina
 rp-pppoe
@@ -256,7 +251,6 @@ vi
 vim
 virtualbox-guest-utils-nox
 vpnc
-welcome
 wget
 which
 wireless-regdb
@@ -279,6 +273,5 @@ xorg-xrandr
 xsettingsd
 xterm
 xwaylandvideobridge
-yay
 zsh
 
