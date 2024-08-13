@@ -1,0 +1,12 @@
+[Unit]
+Description=Configure system for Music CPR development
+After=systemd-logind.service
+
+[Service]
+Type=oneshot
+RemainAfterExit=no
+ExecStart=/etc/cparch-postinstall.sh
+
+[Install]
+WantedBy=default.target
+
