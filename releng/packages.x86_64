@@ -204,7 +204,6 @@ rebuild-detector
 refind
 reflector
 reiserfsprogs
-remmina
 rp-pppoe
 rsync
 rtkit
@@ -250,6 +249,7 @@ usbutils
 vi
 vim
 virtualbox-guest-utils-nox
+visual-studio-code-bin
 vpnc
 wget
 which
