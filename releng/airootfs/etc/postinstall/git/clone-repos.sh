@@ -21,3 +21,4 @@ EXTMSG="Repositories cloned. Please close this window."
 printf "\n\n%*s\n" $(((${#WLCM1}+$COL)/2)) "$EXTMSG"
 
 exit
+

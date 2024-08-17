@@ -4,15 +4,6 @@ COL=$(tput cols)
 WLCM1="Music CPR Backend Setup and Conguration"
 WLCM2="KEEP THIS WINDOW OPEN WHILE WORKING"
 
-# terminate dev server w/ `kill -USR1` if necessary
-server_up=false
-handle_server_up () {
-  server_up=true ; 
-  exit 0 ;
-}
-trap handle_server_up USR1
-
-
 CPRDIR="~/MusicCPR/dev/local"
 cd $CPRDIR
 
@@ -37,5 +28,5 @@ python manage.py migrate
 DJANGO_SUPERUSER_PASSWORD=muzak \ 
 python manage.py createsuperuser --noinput --username mahler --email mahler@gustav.zwei
 
-python manage.py runserver
+python manage.py runserver & kill -SIGUSR2 $$PPID
 
